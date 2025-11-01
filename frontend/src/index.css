@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { font-family: Inter, system-ui, Arial; margin: 0; padding: 0; background: #f7fafc; color: #111827; }
+.app { max-width: 900px; margin: 24px auto; padding: 16px; }
+header { margin-bottom: 12px; }
+.chat { display: flex; flex-direction: column; gap: 12px; }
+.input-row { display:flex; gap:8px; }
+input[type="text"] { flex:1; padding:8px 10px; border-radius:6px; border:1px solid #ddd; }
+button { padding:8px 12px; border-radius:6px; border: none; background:#2563eb; color:white; cursor:pointer}
+.message { max-width: 80%; padding: 10px 12px; border-radius: 12px; }
+.user { align-self: flex-end; background:#2563eb; color:white }
+.bot { align-self: flex-start; background:white; border:1px solid #e5e7eb }
+.card { background: white; border: 1px solid #e5e7eb; padding: 8px; border-radius: 8px; margin:8px 0 }
+.card-title { font-weight:600 }
+.card-meta { font-size: 0.9rem; color: #374151 }
